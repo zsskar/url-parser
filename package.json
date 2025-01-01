@@ -1,0 +1,32 @@
+{
+  "name": "url-parser-ts",
+  "version": "1.0.2",
+  "description": "This is a URL parser library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "keywords": ["url", "parser", "typescript"],
+  "author": "Rashid Ali Khan <rashid.11612612@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zsskar/url-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zsskar/url-parser/issues"
+  },
+  "homepage": "https://github.com/zsskar/url-parser#readme",
+  "dependencies": {
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
